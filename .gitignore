@@ -1,0 +1,22 @@
+# Secrets: never commit these
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Node (for the frontend later)
+node_modules/
+dist/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Local database data (if we ever bind-mount it)
+pgdata/
