@@ -20,3 +20,9 @@ dist/
 
 # Local database data (if we ever bind-mount it)
 pgdata/
+
+# Random notes
+random.md
+
+# SQL
+sql/scratch.sql
